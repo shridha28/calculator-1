@@ -54,7 +54,7 @@ def main():
             expressionTree = parsers.parse(tokens)
             evaluator = evaluators.Evaluators()
             result = evaluator.evaluate(expressionTree)
-            print '\nResult:',
+            print '\nResult:of the expression is',
             print result
         except CalcExceptions, x:
             print 'Error!:',
